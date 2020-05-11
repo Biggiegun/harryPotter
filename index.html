@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/hojas-de-estilos.css" type="text/css">
+    <title>Harry Potter</title>
+</head>
+<body>
+    <div id="presentation">
+    <img src="images/harry-potter-und-der-gefangene-von-askaban.png" alt="HP">
+    <h1>Harry Potter - Análisis de resultados del sombrero seleccionador</h1>
+    </div>
+    <hr>
+    
+    <ul><h2>Casas</h2>
+        <li>Gryffindor (G)</li>
+        <li>Hufflepuff (H)</li>
+        <li>Ravenclaw (R)</li>
+        <li>Slytherin (S)</li>
+        <!--Otra letra (Hatstall - Indecisión del sombrero, se pregunta de nuevo)-->
+    </ul>
+    <label for="">Asignación de casa estudiantil, ingrese la letra correspondiente:</label>
+    
+    <div id="calculos">
+    <input type="text" placeholder="Ingrese la letra de la Casa" id="txtCasa"> <!-- input field para ingresar datos a leer-->
+    <input type="button" value="Asignar Casa" id="btnAsignar">
+    <input type="button" value="Calcular porcentajes" id="btnCalcular">
+    <div id="resultadosAsignación"></div>
+    </div>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>

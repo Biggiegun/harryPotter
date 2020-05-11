@@ -1,0 +1,31 @@
+
+#btnAsignar:hover{
+background-color: wheat;
+}
+#btnCalcular:hover{
+   background-color: burlywood;
+}
+input{
+    border-radius: 0.2em;
+}
+img{
+   border: burlywood solid 1px;
+max-width: 50vw;
+max-height: 20vh;
+border-radius: 50%;
+}
+#presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 0.5em;
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+}
+#calculos{
+    display: block;
+}
